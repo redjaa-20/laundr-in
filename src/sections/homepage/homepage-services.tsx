@@ -5,15 +5,18 @@ import { SERVICES } from "./homepage-data";
 
 export function HomepageServices() {
   return (
-    <div id="layanan" className="flex flex-col py-15 bg-neutral-100">
+    <div
+      id="layanan"
+      className="flex flex-col py-15 bg-neutral-100 px-4 xl:px-0"
+    >
       <div className="w-full max-w-5xl mx-auto text-center flex flex-col items-center">
         <p className="text-sm font-bold text-violet-500 mb-3">LAYANAN KAMI</p>
-        <h3 className="text-4xl font-bold mb-5 leading-13">
+        <h3 className="text-3xl lg:text-4xl font-bold mb-5 leading-10 lg:leading-13">
           Semua Kebutuhan Laundry-mu
           <br />
           Ada di Sini
         </h3>
-        <p>
+        <p className="leading-relaxed">
           Pilih layanan sesuai kebutuhanmu. Kami siap melayani dengan sepenuh
           hati.
         </p>

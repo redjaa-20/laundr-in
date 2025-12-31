@@ -5,11 +5,15 @@ import { TESTIMONI } from "./homepage-data";
 
 export function HomepageTestimonials() {
   return (
-    <div className="flex flex-col py-15 bg-neutral-100">
+    <div className="flex flex-col py-15 bg-neutral-100 px-4 xl:px-0">
       <div className="w-full max-w-6xl mx-auto text-center flex flex-col items-center">
         <p className="text-sm font-bold text-violet-500 mb-3">TESTIMONI</p>
-        <h3 className="text-4xl font-bold mb-5">Apa Kata Pelanggan Kami</h3>
-        <p>Kepercayaan pelanggan adalah prioritas kami. Ini kata mereka:</p>
+        <h3 className="text-3xl lg:text-4xl font-bold mb-5 leading-10 lg:leading-13">
+          Apa Kata Pelanggan Kami
+        </h3>
+        <p className="leading-relaxed">
+          Kepercayaan pelanggan adalah prioritas kami. Ini kata mereka:
+        </p>
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-5 mt-10 w-full">
           {TESTIMONI.map((testi) => (
             <div

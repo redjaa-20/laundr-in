@@ -5,11 +5,13 @@ import { STEPS } from "./homepage-data";
 
 export function HomepageHowItWorks() {
   return (
-    <div className="flex flex-col py-15">
+    <div className="flex flex-col py-15 px-4 xl:px-0">
       <div className="w-full max-w-5xl mx-auto text-center flex flex-col items-center">
         <p className="text-sm font-bold text-violet-500 mb-3">CARA PESAN</p>
-        <h3 className="text-4xl font-bold mb-5">Semudah 4 Langkah</h3>
-        <p>
+        <h3 className="text-3xl lg:text-4xl font-bold mb-5 leading-10 lg:leading-13">
+          Semudah 4 Langkah
+        </h3>
+        <p className="leading-relaxed">
           Pesan laundry jadi gampang banget. Kamu tinggal chat, kami yang
           kerjakan sisanya!
         </p>

@@ -11,14 +11,18 @@ export function HomepageLocation() {
   return (
     <div
       id="lokasi"
-      className="w-full max-w-6xl mx-auto flex flex-col py-15 text-center items-center"
+      className="w-full max-w-6xl mx-auto flex flex-col py-15 text-center items-center px-4 xl:px-0"
     >
       <p className="text-sm font-bold text-violet-500 mb-3">LOKASI KAMI</p>
-      <h3 className="text-4xl font-bold mb-5">Mudah Dijangkau</h3>
-      <p>Kunjungi outlet kami atau gunakan layanan antar-jemput gratis.</p>
+      <h3 className="text-3xl lg:text-4xl font-bold mb-5 leading-10 lg:leading-13">
+        Mudah Dijangkau
+      </h3>
+      <p className="leading-relaxed">
+        Kunjungi outlet kami atau gunakan layanan antar-jemput gratis.
+      </p>
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-10 mt-10 w-full">
-        <div className="rounded-xl overflow-hidden bg-muted-foreground col-span-3 h-[400px]"></div>
-        <div className="flex flex-col gap-4 col-span-2">
+        <div className="h-[300px] lg:h-auto rounded-xl overflow-hidden bg-muted-foreground col-span-3"></div>
+        <div className="flex flex-col gap-4 col-span-3 lg:col-span-2">
           <div className="flex gap-5 rounded-xl p-5 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.08)]">
             <div className="h-14 w-14 flex items-center justify-center bg-violet-100 rounded-xl">
               <HugeiconsIcon
