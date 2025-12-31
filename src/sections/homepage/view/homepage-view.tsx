@@ -1,5 +1,6 @@
 import { HomepageHero } from "../homepage-hero";
 import { HomepageServices } from "../homepage-services";
+import { HomepageWhyChooseUs } from "../homepage-why-choose-us";
 
 // ------------------------------------------------------------
 
@@ -8,8 +9,8 @@ export function HomepageView() {
     <>
       <HomepageHero />
       <HomepageServices />
-      {/* <HomeWhyChooseUs />
-      <HomePricing />
+      <HomepageWhyChooseUs />
+      {/* <HomePricing />
       <HomeHowItWorks />
       <HomeTestimonials />
       <HomeLocation /> */}
